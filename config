@@ -37,8 +37,8 @@ inherit = bar/master
 monitor = ${env:MONITOR:eDP-1-1}
 
 modules-left = i3 cpu memory filesystem windowtitle 
-modules-center = date  
-modules-right = brightness pulseaudio eth wlan battery1 powermenu
+modules-center = date 
+modules-right = cmus-ugt cmus-lyrics cmus pulseaudio brightness eth wlan battery1 powermenu
 
 [bar/mainHDMI]
 inherit = bar/master
