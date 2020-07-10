@@ -17,8 +17,8 @@
 ;==========================================================
 
 [section/base]
-include-file = /home/ymau/.config/polybar/master.conf
-include-file = /home/ymau/.config/polybar/modules.conf
+include-file = ~/.config/polybar/master.conf
+include-file = ~/.config/polybar/modules.conf
 
 [colors]
 background = ${xrdb:color0:#222}
@@ -34,7 +34,7 @@ alert = ${xrdb:color3:#bd2c40}
 [bar/main]
 inherit = bar/master
 
-monitor = ${env:MONITOR:eDP-1-1}
+monitor = ${env:MONITOR:eDP-1}
 
 modules-left = i3 cpu memory filesystem windowtitle 
 modules-center = date 
